@@ -1,19 +1,28 @@
-p{
-    color: red;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    background: yellow;
+body {
+  background-color: beige;
+}
+h1 {
+  text-align: center;
+  color: chocolate;
+}
+p {
+  color: red;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}
+
+input {
     
 }
 
-h1{
-    text-align: center;
-    color:pink;
-}
-
-p{
-    text-align: center;
-    color: red;
-    text-transform: uppercase
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
 }
